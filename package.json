@@ -1,0 +1,22 @@
+{
+  "name": "keiko-corp",
+  "version": "1.0.0",
+  "description": "The greatest company ever created by Bruno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PleaBanshee/Keiko-Corp.git"
+  },
+  "author": "Llewellyn Anthony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PleaBanshee/Keiko-Corp/issues"
+  },
+  "homepage": "https://github.com/PleaBanshee/Keiko-Corp#readme",
+  "dependencies": {
+    "purgecss": "^4.0.3"
+  }
+}
