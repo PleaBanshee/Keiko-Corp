@@ -133,11 +133,6 @@ header .burger_icon:hover{
 	cursor: pointer;
 }
 
-header .burger_icon.active{
-	background: #359663;
-	color: #ffffff;
-}
-
 header nav{
 	margin-top: 50px;
 	display: table-cell;
@@ -232,10 +227,6 @@ header .social li:first-child{
 	margin: 15px 0 35px 0;
 }
 
-#slider .caption p{
-	margin: 0;
-}
-
 a.app_store_btn{
 	display: inline-block;
 	text-decoration: none;
@@ -328,12 +319,6 @@ a.app_link{
     z-index: 9999;
     background: rgba(0, 0, 0, .8);
     display: none;
-}
-
-.about_video iframe{
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
 }
 
 .close_video{
@@ -585,7 +570,36 @@ a.app_link{
 	font-size: 14px;
 }
 
-.#tslider{
+
+
+
+
+
+
+
+
+
+/*		Subscription section 		*/
+
+.sub_box{
+	width: 100%;
+	padding: 100px 0;
+	text-align: center;
+	background-image: -moz-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -o-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
+	background-image: linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
+}
+
+.sub_box .cta_text{
+	color: #fff;
+	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+/* Owl Carousel */
+.#tslider {
 	text-align: center!important;
 	position: relative!important;
 }
@@ -632,34 +646,6 @@ a.app_link{
 }
 #tslider .owl-controls .owl-next:hover{
 	background-position: -33px 0;
-}
-
-
-
-
-
-
-
-
-
-
-/*		Subscription section 		*/
-
-.sub_box{
-	width: 100%;
-	padding: 100px 0;
-	text-align: center;
-	background-image: -moz-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -o-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: -webkit-linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
-	background-image: linear-gradient(bottom, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
-}
-
-.sub_box .cta_text{
-	color: #fff;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	margin-bottom: 50px;
 }
 
 .sub_box #mc-email{
@@ -721,10 +707,6 @@ a.app_link{
 
 #mc_submit i.icon{
 	background: url('../img/sub_icon.png') no-repeat;
-}
-
-#mc_submit i.loading{
-	background: url('../img/loading.gif') no-repeat;
 }
 
 .sub_box .message{
@@ -815,10 +797,6 @@ footer .copyright a{
 		margin-top: 130px;
 		left: 0;
 		display: none;
-	}
-
-	header nav.show{
-		display: block;
 	}
 
 
